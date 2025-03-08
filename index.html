@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>世界一かわいいパグについて</title>
+    <style>
+        /* フォント設定 */
+        body {
+            font-family: 'Patrick Hand', cursive; /* 全体のフォント */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 画像の最大幅を設定 */
+        img {
+            width: 100%; /* 画像を親要素の幅に合わせる */
+            max-width: 100%; /* 最大幅を親要素の幅に制限 */
+            height: auto;    /* 高さは自動調整 */
+            object-fit: cover; /* 画像が親要素にフィット */
+            display: block; /* ブロック要素にすることで画像が中央に配置 */
+        }
+
+        /* セクションのスタイル */
+        section {
+            display: flex;
+            flex-direction: column; /* セクション内で縦方向に配置 */
+            justify-content: center; /* 画像とテキストを中央に配置 */
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center; /* テキストを中央揃え */
+            position: relative; /* セクション内で画像が重ならないように */
+            margin-bottom: 20px; /* セクション間の余白を追加 */
+        }
+
+        /* 各セクションの背景色 */
+        #section1 {
+            background-color: #ffcccb;
+        }
+
+        #section2 {
+            background-color: #add8e6;
+        }
+
+        #section3 {
+            background-color: #90ee90;
+        }
+
+        /* セクションの高さ調整 */
+        section {
+            height: 70vh; /* セクションの高さを70%にして文字も見えるように */
+            overflow: hidden; /* セクション内に収まるように余分な部分を隠す */
+        }
+
+        /* スマホサイズの場合 */
+        @media screen and (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+    
+            h1 {
+                font-size: 24px;
+            }
+
+            section {
+                padding: 10px; /* スマホサイズでセクション内のパディングを減らす */
+                height: 60vh; /* スマホサイズの場合、セクションの高さを少し低く */
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="section1">
+      <img src="07-dog-pug-lying.jpg" alt="gazou">
+        <h1>パグの歴史</h1>
+        <p>パグは最も古い犬種のひとつであり、祖先は紀元前2000年くらい前の古代アジアにいたとされ、当時はまだ大型犬であったと推定されています。</p>
+        <p>チベットの僧院で飼育され、チベタン・スパニエルやペキニーズなどを使って交配されて小型化したと伝えられています。マスティフ系の犬が先祖と考えられ、交易などを通じて欧州各国に広まりました。</p>
+        <p>元々は大型犬であったが、飼いやすいように小型化され、現在のように小さな犬種になったと言われています。その後、仏教を通じて中国の皇室に献上され、魔除けの犬として寵愛されました。</p>
+    </section>
+    
+    <section id="section2">
+      <img src="cute-pug-laying-down-couch-home_231208-7820 (1).avif" alt="gazou">
+        <h1>人気</h1>
+        <p>わんぱくで愛らしく、飼い主に対していつでも喜んで遊び戯れてくれる性格から、日本でも大変人気のある犬種です。額のしわが特徴的で表情、眠るときにいびきをかくのも愛らしいポイントです。筋肉質でがっしりした体型で運動量も多いです。</p>
+        <p>元気で遊び好きなパグは、飼い主と一緒に遊んだり、散歩に出かけたりすることが好きなため、家庭での生活に適しています。</p>
+        <p>そのかわいい顔と元気な性格のおかげで、2025年人気犬種ランキングでは15位と、コーギーやパピヨンよりわずかに人気です。</p>
+    </section>
+    
+    <section id="section3">
+      <img src="pug2_pic1.jpg" alt="gazou">
+        <h1>パグを買う時の注意</h1>
+        <p>パグの寿命は12〜15年で、飼育にかかる費用は約180万〜225万円です。生涯の飼育費用と初期費用を合わせると、約250万円以上になります。</p>
+        <p>感情のムラが強く、問題行動を起こしやすいので、甘やかしすぎると主従関係を理解せず、誰にでも噛みつくことがあります。</p>
+        <h1>まとめ</h1>
+        <p>パグは圧倒的なかわいさで2025年犬種ランキングで15位に選ばれていますが、かかる費用や性格において注意が必要です。愛せる人が飼うことをお勧めします。</p>
+    </section>
+    <footer>(c) 2025.3.08 Ruwe</footer>
+</body>
+</html>
